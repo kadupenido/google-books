@@ -1,0 +1,22 @@
+<template>
+  <router-view/>
+</template>
+
+<script>
+export default {
+  name: "App"
+};
+</script>
+
+<style>
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+</style>
